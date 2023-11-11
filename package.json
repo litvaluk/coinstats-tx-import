@@ -1,0 +1,16 @@
+{
+  "name": "coinstats-tx-import",
+  "version": "1.0.0",
+  "description": "Tool for importing transactions into CoinStats",
+  "main": "coinmate/import.js",
+  "type": "module",
+  "scripts": {
+    "coinmate": "node coinmate/import.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "litvaluk",
+  "license": "MIT",
+  "dependencies": {
+    "papaparse": "^5.4.1"
+  }
+}
